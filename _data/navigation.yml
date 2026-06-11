@@ -1,0 +1,13 @@
+main:
+  - title: "Research"
+    url: /research/
+  - title: "Talks"
+    url: /talks/
+  - title: "Teaching"
+    url: /teaching/
+  - title: "Other"
+    url: /other/
+  - title: "CV"
+    url: /cv/
+  - title: "Contact"
+    url: /contact/
