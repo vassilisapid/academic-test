@@ -4,7 +4,7 @@ permalink: /
 layout: home-flex
 author_profile: true
 profile_variant: portrait
-profile_image: photoVassi.jpg
+profile_image: /images/photoVassi.jpg
 profile_name: "Vassilis Apidopoulos"
 profile_subtitle: "Post-doctoral researcher, Archimedes RU, Athena RC"
 profile_links:
