@@ -2,7 +2,7 @@
 # Copy this over the default _config.yml after creating the site from academicpages/academicpages.github.io.
 
 locale: "en-US"
-site_theme: "default" # options in Academic Pages include: default, air, sunrise, mint, dirt, contrast
+site_theme: "air" # options in Academic Pages include: default, air, sunrise, mint, dirt, contrast
 
 title: "Vassilis Apidopoulos"
 title_separator: "-"
