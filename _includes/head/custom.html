@@ -1,16 +1,16 @@
 <style>
-/* Right-side coloured bundle */
-.right-color-bundle {
+/* Left-side coloured bundle */
+.left-color-bundle {
   position: fixed;
   top: 0;
-  right: 0;
-  width: 16px;
+  left: 0;
+  width: 24px;
   height: 100vh;
   z-index: 999;
   pointer-events: none;
 
-  background:
-    linear-gradient(
+  background: #a34040
+    /* linear-gradient(
       to bottom,
       #2f80ed 0%,
       #2f80ed 16%,
@@ -24,31 +24,31 @@
       #eb5757 80%,
       #9b51e0 80%,
       #9b51e0 100%
-    );
+    ); */
 }
 
-/* Give the page a little breathing room so the strip does not feel attached to text */
+/* Avoid the strip overlapping the page edge */
 body {
-  padding-right: 16px;
+  padding-left: 16px;
 }
 
 /* Hide it on small screens */
 @media screen and (max-width: 768px) {
-  .right-color-bundle {
+  .left-color-bundle {
     display: none;
   }
 
   body {
-    padding-right: 0;
+    padding-left: 0;
   }
 }
 
 /* Slightly soften it in dark mode */
 @media (prefers-color-scheme: dark) {
-  .right-color-bundle {
-    opacity: 0.75;
+  .left-color-bundle {
+    opacity: 0.65;
   }
 }
 </style>
 
-<div class="right-color-bundle"></div>
+<div class="left-color-bundle"></div>
