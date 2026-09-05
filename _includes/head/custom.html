@@ -85,6 +85,51 @@ body {
   text-decoration: underline !important;
 }
 
+/* Slightly smaller body text in the four main content pages */
+.page__content p,
+.page__content li {
+  font-size: 0.93em;
+  line-height: 1.55;
+}
+
+/* Automatic numbering of Research sections and subsections */
+.numbered-research {
+  counter-reset: research-section;
+}
+
+.numbered-research > h2 {
+  counter-reset: research-subsection;
+  counter-increment: research-section;
+}
+
+.numbered-research > h2::before {
+  content: counter(research-section) ". ";
+}
+
+.numbered-research > h3 {
+  counter-increment: research-subsection;
+}
+
+.numbered-research > h3::before {
+  content: counter(research-section) "." counter(research-subsection) " ";
+}
+
+/* Compact Research and Teaching lists */
+.research-items,
+.teaching-list {
+  margin-top: 0.6rem;
+  margin-bottom: 1.4rem;
+}
+
+.research-items li,
+.teaching-list li {
+  margin-bottom: 0.55rem;
+}
+
+.teaching-meta {
+  opacity: 0.75;
+}
+
 </style>
 
 <div class="left-color-bundle"></div>
