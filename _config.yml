@@ -15,11 +15,11 @@ repository: "vassilisapid/vassilisapid.github.io"
 # Author sidebar
 # The avatar should be copied to images/photoVassi.jpg
 author:
-  avatar: "VassiWeb.png"
+  avatar: "Vassi_Web.png"
   name: "Vassilis Apidopoulos"
-  bio: "Post-doctoral researcher in optimization, machine learning, and inverse problems."
-  location: "Marousi, Greece"
-  employer: "Archimedes RU, Athena RC"
+  bio: "Assistant professor"
+  location: "Athens, Greece"
+  employer: "AUEB"
   uri: "https://vassilisapid.github.io"
   email:
 
