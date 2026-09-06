@@ -9,7 +9,7 @@ title_separator: "-"
 name: &name "Vassilis Apidopoulos"
 description: &description "Academic homepage of Vassilis Apidopoulos"
 url: "https://vassilisapid.github.io"
-baseurl: "/academic-test"
+baseurl: ""
 repository: "vassilisapid/vassilisapid.github.io"
 
 # Author sidebar
