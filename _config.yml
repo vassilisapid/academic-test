@@ -19,7 +19,8 @@ author:
   name: "Vassilis Apidopoulos"
   bio: "Assistant professor"
   location: "Athens, Greece"
-  employer: #AUEB"
+  employer: "AUEB"
+  employer_url: "https://www.aueb.gr/"
   uri: "https://vassilisapid.github.io"
   email:
 
